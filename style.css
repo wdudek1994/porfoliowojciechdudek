@@ -1,0 +1,175 @@
+@import url(reset.css);
+
+html {
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+}
+
+body {
+    max-width: 80%;
+    margin-left: 7%;
+    background-color:  #fff2e6
+;
+}
+
+.projects {
+    display: none;
+}
+
+.contact {
+    text-align: center;
+}
+
+h1, h4 {
+    font-size: 6rem;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    background-color: #fff2e6;
+    color: #000;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+p {
+    font-size: 2.3rem;
+    line-height: 3rem;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+header {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    background: url(assets/background.jpg) center no-repeat;
+}
+
+#about-me, header {
+    text-align: center;
+}
+
+
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.polish, .english {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+footer p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+input, textarea {
+    width: 30rem;
+    padding: .3rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+button {
+    border: #000 1.5px solid;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.project {
+    text-align: center;
+}
+
+.project a {
+    font-size: 2.3rem;
+    font-style: italic;
+}
+
+.pacific, .bill {
+    border: #000 2px solid;
+    border-width: thick;
+    display: inline-block;
+    padding: 1.5rem;
+    
+}
+
+
+.dot {
+    width: 1rem;
+    height: 1rem;
+    background: #000;
+    margin: .1rem auto;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+video {
+    width: 90%;
+}
+
+
+@media all and (max-width: 620px) {
+    
+    h1 {
+    font-size: 4rem;
+
+}
+    
+    h4 {
+    font-size: 2rem;
+}
+    
+    p {
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+    
+}
+
+@media all and (max-width: 450px){
+    
+    h1 {
+    font-size: 3.3rem;
+    line-height: 3rem;
+
+}
+    
+    h4 {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+    
+    p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+    
+}
+
